@@ -78,7 +78,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.zygote.disable_gl_preload=true \
     ro.config.vc_call_vol_steps=5 \
     debug.sf.latch_unsignaled=1 \
-    debug.stagefright.ccodec=0
+    debug.stagefright.ccodec=0 \
+    vendor.camera.hal1.packagelist=com.whatsapp,com.facebook.katana,com.instagram.android,com.snapchat.android
 
 # Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
