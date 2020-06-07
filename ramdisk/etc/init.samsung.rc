@@ -1238,3 +1238,7 @@ on property:persist.security.ccmextra=1
 # s.fan - hide carrier apps
 on property:ro.csc.sales_code=*
     mount none /system/carrier/${ro.csc.sales_code} /system/carrier bind
+
+# FPS Info
+  chown system graphics /sys/class/graphics/fb0/measured_fps
+  chmod 0666 /sys/class/graphics/fb0/measured_fps
